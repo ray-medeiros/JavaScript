@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins', sans-serif;
+}
+html.body{
+    height: 100%;
+}
+.max-widht{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#solution{
+    width: 100%;
+    height: 80vh;
+    background: url(assets/pexels-lara-jameson-8828673.jpg) no-repeat;
+}
